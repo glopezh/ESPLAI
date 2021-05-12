@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/jpeg" href="gato_sad.jpeg" sizes="16x16" />
+  <title>Contacto</title>
+  <nav>
+    <li><a href="index.html">Ir a la pantalla de inicio</a></li>
+    <li><a href="curriculum.html">Ir a la web de curriculum</a></li>
+  </nav>
+</head>
+
+<body>
+  <h1>Página de contacto</h1>
+
+  <form>
+    <div>
+      <h1>Introduce tus datos</h1>
+      <label for="nombre">Nombre: </label>
+      <input type="text" id="nombre" required placeholder="Introduce tu nombre">
+      <label for="apellidos">Apellidos: </label>
+      <input type="text" id="apellidos" maxlength="10">
+    </div>
+    <div>
+      <label for="email">Email de contacto:</label>
+      <input type="email" id="email" readonly value="ejemplo@ejemplo.com">
+    </div>
+
+    <div>
+      <!--Usar etiqueta desplegable-->
+      <label for="conocer">¿Donde nos conociste?</label>
+      <select id="conocer">
+        <option value="Internet">Internet</option>
+        <option value="Tv">TV</option>
+        <option value="Amigos">Amigos</option>
+      </select>
+    </div>
+    <div>
+      <p><input type="checkbox" name="politica_privacidad" value="politica">Acepta las politicas de privdacidad<br></p>
+      <!--Usar etiqueta casilla de verificación-->
+      <div>
+        <button type="submit">Guardar</button>
+      </div>
+  </form>
+</body>
+
+</html>
