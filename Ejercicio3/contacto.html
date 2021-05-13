@@ -7,13 +7,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/jpeg" href="gato_sad.jpeg" sizes="16x16" />
   <title>Contacto</title>
-  <nav>
-    <li><a href="index.html">Ir a la pantalla de inicio</a></li>
-    <li><a href="curriculum.html">Ir a la web de curriculum</a></li>
-  </nav>
 </head>
 
 <body>
+  <nav>
+    <a href="index.html">Ir a la pantalla de inicio</a>
+    <a href="curriculum.html">Ir a la web de curriculum</a>
+  </nav>
   <h1>Página de contacto</h1>
 
   <form>
@@ -24,6 +24,7 @@
       <label for="apellidos">Apellidos: </label>
       <input type="text" id="apellidos" maxlength="10">
     </div>
+
     <div>
       <label for="email">Email de contacto:</label>
       <input type="email" id="email" readonly value="ejemplo@ejemplo.com">
@@ -38,12 +39,14 @@
         <option value="Amigos">Amigos</option>
       </select>
     </div>
+
     <div>
       <p><input type="checkbox" name="politica_privacidad" value="politica">Acepta las politicas de privdacidad<br></p>
       <!--Usar etiqueta casilla de verificación-->
       <div>
         <button type="submit">Guardar</button>
       </div>
+    </div>
   </form>
 </body>
 
