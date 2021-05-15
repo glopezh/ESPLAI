@@ -1,0 +1,10 @@
+/*Selecciona el elemento raíz del documento:
+   <html> en el caso de HTML*/
+:root {
+  --color-principal: #a52a2a;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  color: #333;
+}
