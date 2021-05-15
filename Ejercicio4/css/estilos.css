@@ -15,6 +15,9 @@ body {
 }
 .contenido-principal {
   background-color: #f0f8ff;
+
+/*Selectores por tipo de elemento*/
+
 }
 h1,
 h2,
@@ -27,4 +30,14 @@ h6 {
 }
 h1 {
   font-size: 46px;
+}
+/*Selectores por tipo de elemento y pseudo*/
+/* visited: Selecciona cualquier <a> que ha sido visitado */
+a,
+a:visited {
+  color: #006400;
+}
+/*Hover: puntero, texto flotante*/
+a:hover {
+  color: var(--color-principal);
 }
