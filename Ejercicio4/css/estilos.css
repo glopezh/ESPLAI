@@ -8,3 +8,8 @@ body {
     Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   color: #333;
 }
+/*Selectores por clase*/
+.cabecera,
+.pie {
+  background-color: #f5f5dc;
+}
