@@ -52,3 +52,8 @@ a:hover {
 .lista {
   list-style-type: square;
 }
+
+.tecnologia {
+  color: #fff;
+  background-color: var(--color-principal);
+}
