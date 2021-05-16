@@ -43,3 +43,7 @@ a:hover {
   color: var(--color-principal);
   text-decoration: underline;
 }
+.seccion-contenido img {
+  border-radius: 50%;
+  border: 2px dotted var(--color-principal);
+}
