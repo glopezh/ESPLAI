@@ -3,16 +3,19 @@
 :root {
   --color-principal: #a52a2a;
 }
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-  color: #333;
-}
 /*Selectores por clase*/
 .cabecera,
 .pie {
-  background-color: #f5f5dc;
+  background-color: #9213cc;
 }
+/*Selector por elemento*/
+
+ main{
+   background-color: #0b07d8;
+ }
+
+
+
 .contenido-principal {
   background-color: #f0f8ff;
 
@@ -43,17 +46,4 @@ a:hover {
   color: var(--color-principal);
   text-decoration: underline;
 }
-/*Selectores por clase*/
-.seccion-contenido img {
-  border-radius: 50%;
-  border: 2px dotted var(--color-principal);
-}
 
-.lista {
-  list-style-type: square;
-}
-
-.tecnologia {
-  color: #fff;
-  background-color: var(--color-principal);
-}

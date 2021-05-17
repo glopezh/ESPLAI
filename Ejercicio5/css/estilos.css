@@ -1,0 +1,85 @@
+/*Selecciona el elemento raíz del documento:
+   <html> en el caso de HTML*/
+:root {
+  --color-principal:#FFE4E1;
+}
+
+body {
+  background-image:url("/img/fondo.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: monospace;
+}
+
+/*Selectores por elemento*/
+
+h1{
+  color: #000;
+  font-size: 46px;
+  text-shadow: #0b07d8 8px 8px 5px;
+  text-align:center;
+}
+
+h2{
+  color: white;
+  font-size: 32px;
+  background-color:#48D1CC
+}
+
+table{
+  margin: auto;
+  font-size: 20px;
+  border: 1px solid #008B8B;
+  padding: 5px;
+}
+
+p{
+  font-size: 20px;
+}
+
+a,
+a:visited {
+  color: #aaacc2;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bolder;
+}
+/*Hover: puntero, texto flotante*/
+a:hover {
+  color: var(--color-principal);
+  text-decoration: underline;
+}
+/*Selectores por clase*/
+.gatobank img {
+  border-radius: 30%;
+  border: 8px dotted var(--color-principal);
+}
+
+ul {
+  list-style-image: url("/img/pato-pequeno.png");
+  margin: 0;
+	padding: 36px 0 36px 84px;
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 40px;
+}
+
+li{
+  font-size: 20px;
+}
+
+.organismo {
+  color: #DC143C;
+  background-color: var(--color-principal);
+}
+
+.pie {
+  background-color: #000;
+  color: #F5FFFA;
+  display: inline;
+}
+
+.instagram{
+  text-align: center;
+}
