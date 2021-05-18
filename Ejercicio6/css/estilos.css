@@ -5,8 +5,78 @@
 	font-family: sans-serif;
 }
 
+.page{
+        display: flex;
+        width: 100%
+    }
+    article {
+        float: left;
+        width: 80%
+    }
+    aside{
+        float: right;
+        width: 20%
+    }
+
 body{
 	width: 90%;
 	margin: auto;
+}
+h1,h2,h4{
+  margin-top: 0;
+}
+
+.cabecera{
+  background-color: #00008B;
+  min-height: 100px;
+  color: #FFFFFF;
+  text-align: left;
+  padding: 2rem;
+}
+
+ul,li{
+  margin:0;
+  padding: 0;
+  list-style:none;
+}
+
+article{
+background-color:  #C0C0C0;
+min-height: 400px;
+line-height: 200%;
+padding: 2rem;
+}
+aside
+{
+  background-color:  #708090;
+  min-height: 400px;
+  text-align:left;
+  justify-content: flex-end;
+  flex-direction: row;
+  padding: 2rem;
+}
+
+footer{
+  background-color: #00008B;
+  min-height: 100px;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 2rem;
+}
+
+@media screen and (min-width: 1300px){
+	body {
+		min-height: 1200px;
+	}
+}
+
+.ad{
+	margin: 1rem;
+	height: 5rem;
+	flex-direction: column;
+	justify-content: left;
+	flex-grow: 1;
+  padding: 10px;
+
 }
 
